@@ -223,3 +223,61 @@ if (!(domingosAndrea < domingosRequeridos)) {
 } else {
     console.log("Andrea no recibe el bono.");
 }
+
+//If anidados
+//Es una sentencia if que está dentro de otro if o else. 
+
+/*Ejercicio 1: 
+ - Pablo tiene 10 años
+ - Gabriel tiene 65 años
+ - Carlos tiene 18 años
+ - Henry tiene 45 años
+ - Andrea tiene 15 años 
+
+ Condiciones:
+
+ - Niño hasta los 10 años
+ - Adolescente hasta los 17 años
+ - Adulto desde los 18 hasta los 59 años
+ - Adulto mayor a partir de los 60 años */
+
+ let edadPablo = 10;
+
+if(edadPablo <=10){
+    console.log('Pablo es un niño');
+} else if ((edadPablo >10) && (edadPablo<18)){
+    console.log('Pablo es un adolescente');
+} else if ((edadPablo >=18) && (edadPablo<60)){
+    console.log('Pablo es un adulto');
+}else if((edadPablo>=60)){
+    console.log('Pablo es un adulto mayor')
+}
+    
+let edadGabriel = 65;
+
+if(edadGabriel <=10){
+    console.log('Gabriel es un niño');
+} else if ((edadGabriel>10) && (edadGabriel<18)){
+    console.log('Gabriel es un adolescente');
+} else if ((edadGabriel >=18) && (edadGabriel<60)){
+    console.log('Gabriel es un adulto');
+}else if((edadGabriel>=60)){
+    console.log('Gabriel es un adulto mayor')
+}
+
+let edadCarlos = 18;
+
+if(edadCarlos <=10){
+    console.log('Carlos es un niño');
+} else if ((edadCarlos>10) && (edadCarlos<18)){
+    console.log('Carlos es un adolescente');
+} else if ((edadCarlos >=18) && (edadCarlos<60)){
+    console.log('Carlos es un adulto');
+}else if((edadCarlos>=60)){
+    console.log('Carlos es un adulto mayor')
+
+ 
+ 
+ let edadHenry = 45;
+ let edadAndrea = 15;
+
